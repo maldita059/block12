@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Maria Photography</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <style>
+        .container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          background-color: #827878;
+        }
+
+        .blue-box {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 20px;
+          background-color: #0077b6;
+          color: rgb(255, 253, 253);
+          border-radius: 10px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+          max-width: 80%;
+          text-align: center;
+        }
+
+        .blue-box h1 {
+          font-size: 36px;
+          margin: 0;
+          margin-bottom: 20px;
+        }
+
+        .blue-box p {
+          font-size: 24px;
+          margin: 0;
+          margin-bottom: 40px;
+        }
+
+        .blue-box img {
+          max-width: 100%;
+          border-radius: 50%;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        }
+      </style>
+      <div class="container">
+        <div class="blue-box">
+          <h1>1st Project</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi at
+            earum fuga harum alias nobis, eaque optio laudantium dolor sed
+            eligendi consequatur distinctio aperiam accusantium, architecto
+            exercitationem perferendis minus error. Fuga dolore impedit
+            suscipit, vero odit, sequi in deleniti, odio ipsa facere et.
+            Consequatur modi cum ullam adipisci unde amet qui sed odio officia
+            ipsa omnis earum quibusdam, dolor totam?
+          </p>
+          <img
+            src="https://wisconsinpollinators.com/Images/Butterflies/ButterflyFlight.jpg"
+            width="200px"
+            height="200px"
+            alt="My Photo"
+          />
+        </div>
+      </div>
+      <div class="container">
+        <div class="blue-box">
+          <h1>2nd Project</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi at
+            earum fuga harum alias nobis, eaque optio laudantium dolor sed
+            eligendi consequatur distinctio aperiam accusantium, architecto
+            exercitationem perferendis minus error. Fuga dolore impedit
+            suscipit, vero odit, sequi in deleniti, odio ipsa facere et.
+            Consequatur modi cum ullam adipisci unde amet qui sed odio officia
+            ipsa omnis earum quibusdam, dolor totam?
+          </p>
+          <img
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/59/78/0b/caption.jpg?w=800&h=600&s=1"
+            width="200px"
+            height="200pxoto"
+          />
+        </div>
+      </div>
+      <div class="container">
+        <div class="blue-box">
+          <h1>3rd Project</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi at
+            earum fuga harum alias nobis, eaque optio laudantium dolor sed
+            eligendi consequatur distinctio aperiam accusantium, architecto
+            exercitationem perferendis minus error. Fuga dolore impedit
+            suscipit, vero odit, sequi in deleniti, odio ipsa facere et.
+            Consequatur modi cum ullam adipisci unde amet qui sed odio officia
+            ipsa omnis earum quibusdam, dolor totam?
+          </p>
+          <img
+            src="https://www.akcpetinsurance.com/res/akc/blog/2022/three-common-puppy-illnesses/akc-pupill-hdr-new-new.jpg"
+            width="200px"
+            height="200px"
+            alt="My Photo"
+          />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
