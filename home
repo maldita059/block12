@@ -1,0 +1,54 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #9b42b9d8;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    color: #fff;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  /* Add some spacing below the header element */
+  body {
+    padding-top: 60px;
+    box-sizing: border-box;
+    background-color: rgb(117, 2, 13);
+  }
+  iframe {
+    width: 100%;
+    height: calc(100%-100px);
+    border: none;
+  }
+  main {
+    background-color: rgb(0, 8, 5);
+  }
