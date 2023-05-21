@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Maria Photography</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <style>
+        .container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          background-color:cyan
+        }
+
+        .blue-box {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 20px;
+          background-color:mediumblue;
+          color:floralwhite;
+          border-radius: 10px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+          max-width: 80%;
+          text-align: center;
+        }
+
+        .blue-box h1 {
+          font-size: 36px;
+          margin: 0;
+          margin-bottom: 20px;
+        }
+
+        .blue-box p {
+          font-size: 24px;
+          margin: 0;
+          margin-bottom: 40px;
+        }
+
+        .blue-box img {
+          max-width: 100%;
+          border-radius: 50%;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        }
+      </style>
+      <div class="container">
+        <div class="blue-box">
+          <h1>More about me</h1>
+          <p>
+            I have a love for the outdoors, whether that be hiking, camping, or
+            simply exploring nature. I also have a passion for dancing and enjoy
+            different genres of music. Food is another interest of mine, and I
+            love trying new cuisines and experimenting with different recipes.
+          </p>
+          <img
+            src="https://images.pexels.com/photos/2750902/pexels-photo-2750902.jpeg?cs=srgb&dl=women-taking-a-picture-2750902.jpg&fm=jpg"
+            width="200px"
+            height="200px"
+            alt="My Photo"
+          />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
