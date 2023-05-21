@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Maria Photography</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <style>
+        .container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          background-color: #827878;
+        }
+
+        .blue-box {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 20px;
+          background-color: #0077b6;
+          color: rgb(255, 253, 253);
+          border-radius: 10px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+          max-width: 80%;
+          text-align: center;
+        }
+
+        .blue-box h1 {
+          font-size: 36px;
+          margin: 0;
+          margin-bottom: 20px;
+        }
+
+        .blue-box p {
+          font-size: 24px;
+          margin: 0;
+          margin-bottom: 40px;
+        }
+
+        .blue-box img {
+          max-width: 100%;
+          border-radius: 50%;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        }
+      </style>
+      <div class="container">
+        <div class="blue-box">
+          <h1>My Contacts (New!)</h1>
+          <p>
+            Contact 1 - Jerry Smith<br>
+            Contact 2 - James Dean<br>
+            Contact 3 - John Doe<br>
+            Contact 4 - Miss Smith<br>
+            Contact 5 - New You
+          </p>
+          <img
+            src="https://wisconsinpollinators.com/Images/Butterflies/ButterflyFlight.jpg"
+            width="200px"
+            height="200px"
+            alt="My Photo"
+          />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
